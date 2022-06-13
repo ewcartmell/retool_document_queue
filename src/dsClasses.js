@@ -335,6 +335,12 @@ function build_or_assign(arr = []) {
 })
 }
 
+module.exports.Document = Document;
+module.exports.Shipment = Shipment;
+module.exports.Coordinator = Coordinator;
+module.exports.build_or_assign = build_or_assign
+
+/*
 module.exports = {
   Document,
   Shipment,
@@ -343,3 +349,4 @@ module.exports = {
 }
 
 
+*/
