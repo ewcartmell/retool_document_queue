@@ -189,4 +189,4 @@ class Document {
 
 }
 
-module.exports = Document
+//module.exports = Document
