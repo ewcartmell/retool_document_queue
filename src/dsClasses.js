@@ -9,6 +9,9 @@ function build_or_assign(arr = []) {
 })
 }
 
+
+module.exports = build_or_assign
+
 class Document {
   static all = []
 
@@ -333,4 +336,4 @@ class Coordinator {
 
 }
 
-export { build_or_assign, Document, Shipment, Coordinator };
+//export { build_or_assign, Document, Shipment, Coordinator };
