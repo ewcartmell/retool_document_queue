@@ -1,4 +1,4 @@
-class Document {
+window.Document = class Document {
   static all = []
 
   static get_document(DOCUMENT_ID) {
@@ -189,4 +189,4 @@ class Document {
 
 }
 
-//module.exports = Document
+//module.exports = window.Document
