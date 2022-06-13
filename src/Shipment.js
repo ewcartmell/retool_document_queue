@@ -1,4 +1,4 @@
-class Shipment {
+window.Shipment = class Shipment {
   static all = []
   static shipment_ids = Shipment.all.map(shipment => shipment.SHIPMENT_ID)
   static get_shipment(SHIPMENT_ID) {
@@ -23,9 +23,9 @@ class Shipment {
     });
     return output
 	}
+  this.SHIPMENT_ID = shipment.SHIPMENT_ID;
 
   constructor(shipment) {
-    this.SHIPMENT_ID = shipment.SHIPMENT_ID;
     this.SHIPMENT_LINK = shipment.SHIPMENT_LINK;
     this.CLIENT = shipment.COMPANY_NAME;
     this.ARRIVAL_DATE = shipment.ARRIVAL_DATE;
@@ -44,6 +44,3 @@ class Shipment {
     this.TOTAL_CIS += 1;
   }
 }
-
-
-module.exports = Shipment

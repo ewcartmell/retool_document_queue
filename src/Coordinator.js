@@ -1,5 +1,4 @@
-
-class Coordinator {
+window.Coordinator = class Coordinator {
   static all = []
 
   static get_selected_site_coordinators(sites = []){
@@ -76,6 +75,3 @@ class Coordinator {
 
 
 }
-
-
-module.exports = Coordinator
