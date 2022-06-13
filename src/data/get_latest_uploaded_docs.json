@@ -1,0 +1,940 @@
+[
+  {
+    "GRAPHQL_DOCUMENT_ID": 32306,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-20T20:38:33Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzIzMDY",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 13640,
+    "GRAPHQL_CLIENT": "Maykah Inc.",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-08-01T19:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 9116,
+      "productsFirstEnteredAt": "2015-06-10T19:12:28Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 32230,
+    "GRAPHQL_ARCHIVED_AT": "2015-07-20T18:03:13Z",
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-20T18:02:22Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzIyMzA",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 13718,
+    "GRAPHQL_CLIENT": "CP Squared, Inc",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-20T19:00:00Z",
+    "GRAPHQL_KEYED_AT": null
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 32222,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-20T17:51:21Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzIyMjI",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14731,
+    "GRAPHQL_CLIENT": "Bellabeat Inc",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-20T19:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 10266,
+      "productsFirstEnteredAt": "2016-01-29T21:35:06Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 32198,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-20T17:10:07Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzIxOTg",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14797,
+    "GRAPHQL_CLIENT": "MASSDROP GROUP INC",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": null,
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 26585,
+      "productsFirstEnteredAt": "2016-08-31T19:12:28Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 32164,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-20T15:15:13Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzIxNjQ",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 13718,
+    "GRAPHQL_CLIENT": "CP Squared, Inc",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-20T19:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 9485,
+      "productsFirstEnteredAt": "2015-06-12T16:53:24Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 32150,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-20T04:33:52Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzIxNTA",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 13397,
+    "GRAPHQL_CLIENT": "CRUCIAL VACUUM INC",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-19T16:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 15622,
+      "productsFirstEnteredAt": "2016-02-11T21:32:03Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 32147,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-20T04:32:48Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzIxNDc",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 13397,
+    "GRAPHQL_CLIENT": "CRUCIAL VACUUM INC",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-19T16:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 15621,
+      "productsFirstEnteredAt": "2016-02-11T21:28:50Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 32140,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-20T04:29:37Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzIxNDA",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 13835,
+    "GRAPHQL_CLIENT": "CRUCIAL VACUUM INC",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-08-03T16:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 15592,
+      "productsFirstEnteredAt": "2016-02-11T00:47:02Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 32122,
+    "GRAPHQL_ARCHIVED_AT": "2015-07-20T17:14:49Z",
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-20T02:18:50Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzIxMjI",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14622,
+    "GRAPHQL_CLIENT": "Brian's Toys Inc",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-25T17:00:00Z",
+    "GRAPHQL_KEYED_AT": null
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 32094,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-19T20:42:01Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzIwOTQ",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14734,
+    "GRAPHQL_CLIENT": "Tangible Play Inc",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-19T19:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 10263,
+      "productsFirstEnteredAt": "2016-02-10T18:55:52Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 32021,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-18T00:30:18Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzIwMjE",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 13477,
+    "GRAPHQL_CLIENT": "Richard Pola & Associates, Inc.",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-19T19:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 4613,
+      "productsFirstEnteredAt": "2015-06-03T17:56:50Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 32017,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-17T23:43:12Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzIwMTc",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 13698,
+    "GRAPHQL_CLIENT": "Richard Pola & Associates, Inc.",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-08-03T17:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 9439,
+      "productsFirstEnteredAt": "2015-06-11T23:10:52Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31998,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-17T21:59:03Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzE5OTg",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14604,
+    "GRAPHQL_CLIENT": "Healbe Corporation",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-18T19:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 10221,
+      "productsFirstEnteredAt": "2016-02-02T19:05:01Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31992,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-17T21:48:58Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzE5OTI",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14270,
+    "GRAPHQL_CLIENT": "Perri Distributors, Inc",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-08-11T16:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 9078,
+      "productsFirstEnteredAt": "2016-02-02T18:19:51Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31978,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-17T21:02:05Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzE5Nzg",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14353,
+    "GRAPHQL_CLIENT": "Nomad Goods, Inc",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-20T16:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 9136,
+      "productsFirstEnteredAt": "2016-02-02T22:19:48Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31939,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-17T17:44:29Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzE5Mzk",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 13785,
+    "GRAPHQL_CLIENT": "Richard Pola & Associates, Inc.",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-19T10:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 9609,
+      "productsFirstEnteredAt": "2015-06-15T22:37:46Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31935,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-17T17:38:38Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzE5MzU",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14571,
+    "GRAPHQL_CLIENT": "Haptic Lab",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-23T16:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 4924,
+      "productsFirstEnteredAt": "2016-02-03T19:30:08Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31912,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-17T16:47:31Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzE5MTI",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14743,
+    "GRAPHQL_CLIENT": "TemperPak Technologies Inc.",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-08-13T16:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 10265,
+      "productsFirstEnteredAt": "2015-08-06T21:50:03Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31817,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-16T22:09:52Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzE4MTc",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14475,
+    "GRAPHQL_CLIENT": "Canary Connect, Inc",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-08-03T19:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 13627,
+      "productsFirstEnteredAt": "2016-02-08T16:33:09Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31805,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-16T21:54:33Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzE4MDU",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14619,
+    "GRAPHQL_CLIENT": "Warby Parker",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": false
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-19T16:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 9421,
+      "productsFirstEnteredAt": "2015-07-14T17:42:09Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31798,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-16T21:37:11Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzE3OTg",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14423,
+    "GRAPHQL_CLIENT": "Petnet Inc.",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-17T19:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 7639,
+      "productsFirstEnteredAt": "2016-02-02T21:47:36Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31714,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-16T15:24:06Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzE3MTQ",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14454,
+    "GRAPHQL_CLIENT": "Brian's Toys Inc",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-22T17:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 9766,
+      "productsFirstEnteredAt": "2015-07-08T15:43:49Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31581,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-15T16:23:45Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzE1ODE",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14661,
+    "GRAPHQL_CLIENT": "Whistle Labs Inc",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-19T19:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 9291,
+      "productsFirstEnteredAt": "2015-07-15T16:22:33Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31532,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-15T03:24:39Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzE1MzI",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14086,
+    "GRAPHQL_CLIENT": "Total Bedding Solutions LLC",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-08-11T17:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 9990,
+      "productsFirstEnteredAt": "2015-06-24T22:30:55Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31477,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-15T00:48:10Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzE0Nzc",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14058,
+    "GRAPHQL_CLIENT": "Smiirl",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": null,
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 9985,
+      "productsFirstEnteredAt": "2015-06-24T09:44:24Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31471,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-15T00:24:10Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzE0NzE",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 13884,
+    "GRAPHQL_CLIENT": "MarketFleet LLC",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-30T19:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 9077,
+      "productsFirstEnteredAt": "2015-06-18T01:42:28Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31469,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-15T00:23:01Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzE0Njk",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14267,
+    "GRAPHQL_CLIENT": "Jacksam Corporation",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-16T19:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 4664,
+      "productsFirstEnteredAt": "2015-07-01T01:30:31Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31461,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-14T23:33:06Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzE0NjE",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14162,
+    "GRAPHQL_CLIENT": "iCracked Inc.",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-08-07T10:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 15624,
+      "productsFirstEnteredAt": "2016-02-11T22:25:55Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31460,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-14T23:32:49Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzE0NjA",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14162,
+    "GRAPHQL_CLIENT": "iCracked Inc.",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-08-07T10:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 10064,
+      "productsFirstEnteredAt": "2015-06-26T21:43:50Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31429,
+    "GRAPHQL_ARCHIVED_AT": "2016-03-07T23:47:47Z",
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-14T20:32:50Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzE0Mjk",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14598,
+    "GRAPHQL_CLIENT": "Ring LLC",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-16T19:00:00Z",
+    "GRAPHQL_KEYED_AT": null
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31428,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-14T20:32:42Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzE0Mjg",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14598,
+    "GRAPHQL_CLIENT": "Ring LLC",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-16T19:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 9312,
+      "productsFirstEnteredAt": "2015-12-15T22:21:15Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31427,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-14T20:32:31Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzE0Mjc",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14598,
+    "GRAPHQL_CLIENT": "Ring LLC",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-16T19:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 13712,
+      "productsFirstEnteredAt": "2015-12-15T22:32:48Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31381,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-14T17:52:44Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzEzODE",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14317,
+    "GRAPHQL_CLIENT": "Tangible Play Inc",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-08-01T19:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 9533,
+      "productsFirstEnteredAt": "2016-02-10T17:23:21Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31353,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-14T17:00:03Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzEzNTM",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14553,
+    "GRAPHQL_CLIENT": "E la Carte",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-14T17:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 9248,
+      "productsFirstEnteredAt": "2015-07-10T21:26:02Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31331,
+    "GRAPHQL_ARCHIVED_AT": "2015-07-14T15:42:24Z",
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-14T15:42:12Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzEzMzE",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14453,
+    "GRAPHQL_CLIENT": "MeUndies Inc",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": false
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-16T19:00:00Z",
+    "GRAPHQL_KEYED_AT": null
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31290,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-14T06:00:36Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzEyOTA",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14219,
+    "GRAPHQL_CLIENT": "Nymi Inc",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-16T16:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 9134,
+      "productsFirstEnteredAt": "2016-02-02T19:53:07Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31289,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-14T05:59:51Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzEyODk",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14219,
+    "GRAPHQL_CLIENT": "Nymi Inc",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-16T16:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 15116,
+      "productsFirstEnteredAt": "2016-02-02T21:02:16Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31288,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-14T05:59:31Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzEyODg",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14219,
+    "GRAPHQL_CLIENT": "Nymi Inc",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-16T16:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 15129,
+      "productsFirstEnteredAt": "2016-02-02T21:04:05Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31178,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-13T22:54:45Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzExNzg",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14543,
+    "GRAPHQL_CLIENT": "MASSDROP GROUP INC",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": null,
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 28476,
+      "productsFirstEnteredAt": "2016-09-23T18:22:50Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 31146,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-07-13T21:19:11Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMzExNDY",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14489,
+    "GRAPHQL_CLIENT": "Tangible Play Inc",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-07-14T09:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 10232,
+      "productsFirstEnteredAt": "2015-12-15T22:54:56Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 29006,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-06-29T19:15:18Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMjkwMDY",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 14178,
+    "GRAPHQL_CLIENT": "Ring LLC",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-06-29T19:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 123279,
+      "productsFirstEnteredAt": "2018-04-11T18:12:37Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 25679,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-06-06T00:41:19Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMjU2Nzk",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 13551,
+    "GRAPHQL_CLIENT": "Ring LLC",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-06-07T19:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 123266,
+      "productsFirstEnteredAt": "2018-04-11T17:35:35Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 25678,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-06-06T00:41:09Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMjU2Nzg",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 13551,
+    "GRAPHQL_CLIENT": "Ring LLC",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-06-07T19:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 123258,
+      "productsFirstEnteredAt": "2018-04-11T17:30:18Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 16192,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-04-21T20:41:11Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMTYxOTI",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 12299,
+    "GRAPHQL_CLIENT": "MASSDROP GROUP INC",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": null,
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 28475,
+      "productsFirstEnteredAt": "2016-09-23T18:23:33Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 14676,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-04-08T00:01:07Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMTQ2NzY",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 11894,
+    "GRAPHQL_CLIENT": "Ring LLC",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-04-08T19:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 8510,
+      "productsFirstEnteredAt": "2015-04-07T19:11:26Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 13585,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2015-03-25T00:27:50Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvMTM1ODU",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 11278,
+    "GRAPHQL_CLIENT": "Skiva Technologies",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2015-03-25T17:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 8521,
+      "productsFirstEnteredAt": "2015-03-13T07:30:00Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 7648,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2014-12-13T01:34:39Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvNzY0OA",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 9765,
+    "GRAPHQL_CLIENT": "Wonder Workshop Inc",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2014-12-14T17:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 8985,
+      "productsFirstEnteredAt": "2014-12-04T00:19:17Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 7426,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2014-12-09T20:58:58Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvNzQyNg",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 9752,
+    "GRAPHQL_CLIENT": "Wonder Workshop Inc",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2014-12-11T17:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 8766,
+      "productsFirstEnteredAt": "2014-12-03T15:46:08Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 7218,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2014-12-05T18:26:31Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvNzIxOA",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 9528,
+    "GRAPHQL_CLIENT": "Wonder Workshop Inc",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2014-12-05T17:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 8823,
+      "productsFirstEnteredAt": "2014-11-17T23:56:31Z"
+    }
+  },
+  {
+    "GRAPHQL_DOCUMENT_ID": 5442,
+    "GRAPHQL_ARCHIVED_AT": null,
+    "GRAPHQL_DOCUMENT_CREATED_AT": "2014-10-28T17:51:19Z",
+    "GRAPHQL_ID": "RG9jdW1lbnQvNTQ0Mg",
+    "GRAPHQL_DOCUMENT_TYPE": "commercial_invoice_packing_list",
+    "GRAPHQL_SHIPMENT_ID": 9403,
+    "GRAPHQL_CLIENT": "Tangible Play Inc",
+    "GRAPHQL_CUSTOMS": [
+      {
+        "importCustomsWithFlexport": true
+      }
+    ],
+    "GRAPHQL_ARRIVAL_DATE": "2014-10-29T04:00:00Z",
+    "GRAPHQL_KEYED_AT": {
+      "dbid": 8237,
+      "productsFirstEnteredAt": "2014-10-28T17:50:09Z"
+    }
+  }
+]
