@@ -1,5 +1,5 @@
 
-class Document {
+window.Document = class Document {
   static all = []
 
   static get_document(DOCUMENT_ID) {
@@ -193,7 +193,7 @@ class Document {
 
 
 
-class Shipment {
+window.Shipment = class Shipment {
   static all = []
   static shipment_ids = Shipment.all.map(shipment => shipment.SHIPMENT_ID)
   static get_shipment(SHIPMENT_ID) {
@@ -245,7 +245,7 @@ class Shipment {
 
 
 
-class Coordinator {
+window.Coordinator = class Coordinator {
   static all = []
 
   static get_selected_site_coordinators(sites = []){
@@ -324,7 +324,7 @@ class Coordinator {
 }
 
 
-function build_or_assign(arr = []) {
+window.build_or_assign = function build_or_assign(arr = []) {
   arr.forEach(function (item, index) {
   var doc = Document.get_document(item.GRAPHQL_DOCUMENT_ID)
   if(doc == null) {
