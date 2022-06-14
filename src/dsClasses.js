@@ -250,8 +250,6 @@ window.Shipment = class Shipment {
 
 
 
-
-
 window.Coordinator = class Coordinator {
   static all = []
 
