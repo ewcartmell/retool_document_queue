@@ -53,9 +53,9 @@ window.Document = class Document {
     return arr;
   }
 
-  static get_filtered_cis(clients = [], cart = null, cart_documents = [], team = [], assigned = null, transcribed = null, pending = null) {
+  static get_filtered_cis(clients = [], cart = null, cart_documents = [], team = [], assigned = null, transcribed = null, pending = null, arr = Document.all) {
     var bpo = (team.includes('Support Ninja') || team.includes('Lean Staffing Group'))
-    var arr = Document.all
+    //var arr = Document.all
 
     arr = Document.get_client_cis(clients, arr);
     arr = Document.toggle_cart(cart, cart_documents, arr);
