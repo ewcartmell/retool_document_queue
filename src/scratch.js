@@ -1,4 +1,4 @@
-
+import moment from 'moment';
 class Document {
   static all = []
 
@@ -260,9 +260,9 @@ class Coordinator {
   }
 
 
-  static get_coordinators_assigned_documents(COMPANY) {
+  static get_coordinators_assigned_documents(COMPANY, arr = Coordinator.all) {
 
-    var coordinators = Coordinator.all.filter(c =>
+    var coordinators = arr.filter(c =>
       c.TEAM == 'Product Data'
       && COMPANY.includes(c.COMPANY)
       && c.ROLE === 'Execution'
@@ -331,6 +331,7 @@ class Coordinator {
 }
 
 
+
 function build_or_assign(arr = []) {
   arr.forEach(function (item, index) {
     var doc_id = (item.DOCUMENT_ID ?? item.GSHEET_DOCUMENT_ID) ?? item.GRAPHQL_DOCUMENT_ID;
@@ -388,7 +389,23 @@ var filtered_cis = Document.get_filtered_cis(
   arr =arr
 )
 
-console.log(filtered_cis.length)
+
+
+
+ get_official_ci_keyers[0].forEach(function (item, index) {
+    //var doc_id = (item.DOCUMENT_ID ?? item.GSHEET_DOCUMENT_ID) ?? item.GRAPHQL_DOCUMENT_ID;
+    var coordinator = Coordinator.all.filter(c => c.EMAIL == item.Email)[0]
+    if(coordinator == null) {
+      new Coordinator(item)
+    } else {
+      Object.assign(coordinator, item)
+    }
+  })
+
+
+var test = Coordinator.get_coordinators_assigned_documents('Flexport', Coordinator.all)
+
+console.log(test)
 
 
 //console.log(Document.all)
