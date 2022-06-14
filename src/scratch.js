@@ -20,8 +20,6 @@ class Document {
   static toggle_team(team = null, arr = Document.all) {
     if(!(team == null)) {
       team = (team.includes('Support Ninja') || team.includes('Lean Staffing Group'))
-    }
-    if(!(bpo == null)) {
       arr = arr.filter(row => (row.SN == 'Support Ninja') == team);
     }
     return arr
@@ -372,6 +370,7 @@ var clients = []
 var cart = null
 var cart_documents = []
 var team = []
+var bpo = null
 var assigned = null
 var transcribed = null
 var pending = null
@@ -382,6 +381,7 @@ var filtered_cis = Document.get_filtered_cis(
   cart = cart,
   cart_documents = cart_documents,
   team = team,
+  bpo = bpo,
   assigned = assigned,
   transcribed = transcribed,
   pending = pending,

@@ -17,7 +17,15 @@ window.Document = class Document {
     return arr
   }
 
-  static toggle_team(bpo = null, arr = Document.all) {
+  static toggle_team(team = null, arr = Document.all) {
+    if(!(team == null)) {
+      team = (team.includes('Support Ninja') || team.includes('Lean Staffing Group'))
+      arr = arr.filter(row => (row.SN == 'Support Ninja') == team);
+    }
+    return arr
+  }
+
+  static toggle_bpo(bpo = null, arr = Document.all) {
     if(!(bpo == null)) {
       arr = arr.filter(row => (row.SN == 'Support Ninja') == bpo);
     }
@@ -53,13 +61,12 @@ window.Document = class Document {
     return arr;
   }
 
-  static get_filtered_cis(clients = [], cart = null, cart_documents = [], team = [], assigned = null, transcribed = null, pending = null, arr = Document.all) {
-    var bpo = (team.includes('Support Ninja') || team.includes('Lean Staffing Group'))
-    //var arr = Document.all
+  static get_filtered_cis(clients = [], cart = null, cart_documents = [], team = [], bpo = null, assigned = null, transcribed = null, pending = null, arr = Document.all) {
 
     arr = Document.get_client_cis(clients, arr);
     arr = Document.toggle_cart(cart, cart_documents, arr);
-    arr = Document.toggle_team(bpo, arr);
+    arr = Document.toggle_team(team, arr);
+    arr = Document.toggle_bpo(bpo, arr);
     arr = Document.toggle_assigned(assigned, arr);
     arr = Document.toggle_transcribed(transcribed, arr);
     arr = Document.toggle_pending(pending, arr);
