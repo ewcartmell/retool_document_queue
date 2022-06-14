@@ -53,9 +53,9 @@ class Document {
     return arr;
   }
 
-  static get_filtered_cis(clients = [], cart = null, cart_documents = [], team = [], assigned = null, transcribed = null, pending = null) {
+  static get_filtered_cis(clients = [], cart = null, cart_documents = [], team = [], assigned = null, transcribed = null, pending = null, arr = Document.all) {
     var bpo = (team.includes('Support Ninja') || team.includes('Lean Staffing Group'))
-    var arr = Document.all
+    //var arr = Document.all
 
     arr = Document.get_client_cis(clients, arr);
     arr = Document.toggle_cart(cart, cart_documents, arr);
@@ -337,6 +337,7 @@ function build_or_assign(arr = []) {
 }
 
 
+
 import * as get_shared_cis_json from '/Users/nedcartmell/Documents/GitHub/mocha_unit_testing/src/data/get_cis_shared.json' assert { type: 'json'}
 import * as get_assigned_cis_json from '/Users/nedcartmell/Documents/GitHub/mocha_unit_testing/src/data/get_assigned_cis.json' assert { type: 'json'}
 import * as get_latest_uploaded_docs_json from '/Users/nedcartmell/Documents/GitHub/mocha_unit_testing/src/data/get_latest_uploaded_docs.json' assert { type: 'json'}
@@ -350,7 +351,7 @@ var get_official_ci_keyers = Object.values(get_official_ci_keyers_json)
 
 var arr = []
 
-//arr.push(get_shared_cis[0])
+arr.push(get_shared_cis[0])
 arr.push(get_assigned_cis[0])
 arr.push(get_latest_uploaded_docs[0])
 
@@ -358,7 +359,27 @@ arr.forEach(function(item, index) {
   build_or_assign(item)
 })
 
-console.log(Document.all.filter(d => !(d.GRAPHQL_DOCUMENT_ID == null)).length)
+var clients = []
+var cart = null
+var cart_documents = []
+var team = []
+var assigned = null
+var transcribed = null
+var pending = null
+var arr = Document.all
+
+var filtered_cis = Document.get_filtered_cis(
+  clients = clients,
+  cart = cart,
+  cart_documents = cart_documents,
+  team = team,
+  assigned = assigned,
+  transcribed = transcribed,
+  pending = pending,
+  arr =arr
+)
+
+console.log(filtered_cis.length)
 
 
 //console.log(Document.all)
