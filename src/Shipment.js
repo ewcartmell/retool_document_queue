@@ -23,9 +23,10 @@ window.Shipment = class Shipment {
     });
     return output
 	}
-  this.SHIPMENT_ID = shipment.SHIPMENT_ID;
+
 
   constructor(shipment) {
+    this.SHIPMENT_ID = shipment.SHIPMENT_ID;
     this.SHIPMENT_LINK = shipment.SHIPMENT_LINK;
     this.CLIENT = shipment.COMPANY_NAME;
     this.ARRIVAL_DATE = shipment.ARRIVAL_DATE;
