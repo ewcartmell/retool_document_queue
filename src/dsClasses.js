@@ -276,7 +276,9 @@ window.Coordinator = class Coordinator {
     )
 
     coordinators.forEach(function (item, index) {
-      var assigned_cis = item.get_assigned_documents()
+      var documents = Document.all;
+      var assigned_cis = documents.filter(document => document.GSHEET_ASSIGNED_TO_EMAIL === item.EMAIL);
+      //var assigned_cis = item.get_assigned_documents()
       assigned_cis.reduce(function(res, value) {
       var days_old = moment(value.GSHEET_ASSIGNED_TS).diff(moment(), 'days')*-1
         if (!res[days_old]) {
