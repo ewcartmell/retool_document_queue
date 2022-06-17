@@ -174,23 +174,26 @@ window.Document = class Document {
 
   get_arrival_date_part(date_part) {
 
-    var year = this.ARRIVAL_DATE.getYear()
-    var month = this.ARRIVAL_DATE.getMonth()
-    var week_day = this.ARRIVAL_DATE.getDate() - this.ARRIVAL_DATE.getDay()
-    var day = this.ARRIVAL_DATE.getDate()
+    if(this.ARRIVAL_DATE !== 'Invalid Date') {
+      var year = this.ARRIVAL_DATE.getYear()
+      var month = this.ARRIVAL_DATE.getMonth()
+      var week_day = this.ARRIVAL_DATE.getDate() - this.ARRIVAL_DATE.getDay()
+      var day = this.ARRIVAL_DATE.getDate()
 
-    switch(date_part) {
-      case 'year':
-        return new Date(year, 1, 1);
-        break;
-      case 'month':
-        return new Date(year, month, 1);
-        break;
-      case 'week':
-        return new Date(year, month, week_day);
-        break;
-      default:
-        return new Date(year, month, day);
+      switch(date_part) {
+        case 'year':
+          return new Date(year, 1, 1);
+          break;
+        case 'month':
+          return new Date(year, month, 1);
+          break;
+        case 'week':
+          return new Date(year, month, week_day);
+          break;
+        default:
+          return new Date(year, month, day);
+
+    }
 
     }
   }
@@ -278,7 +281,7 @@ window.Coordinator = class Coordinator {
     coordinators.forEach(function (item, index) {
       var documents = Document.all;
       var assigned_cis = documents.filter(document => document.GSHEET_ASSIGNED_TO_EMAIL === item.EMAIL);
-      //var assigned_cis = item.get_assigned_documents()
+
       assigned_cis.reduce(function(res, value) {
       var days_old = moment(value.GSHEET_ASSIGNED_TS).diff(moment(), 'days')*-1
         if (!res[days_old]) {
