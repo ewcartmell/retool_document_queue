@@ -174,7 +174,7 @@ window.Document = class Document {
 
   get_arrival_date_part(date_part) {
 
-    if(this.ARRIVAL_DATE instanceof Date && isFinite(this.ARRIVAL_DATE)) {
+    if(this.ARRIVAL_DATE instanceof Date) {
       var year = this.ARRIVAL_DATE.getYear()
       var month = this.ARRIVAL_DATE.getMonth()
       var week_day = this.ARRIVAL_DATE.getDate() - this.ARRIVAL_DATE.getDay()
