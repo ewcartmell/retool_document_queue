@@ -403,9 +403,9 @@ var filtered_cis = Document.get_filtered_cis(
   })
 
 
-var test = Coordinator.get_coordinators_assigned_documents('Flexport', Coordinator.all)
+//var test = Coordinator.get_coordinators_assigned_documents('Flexport', Coordinator.all)
 
-console.log(test)
+console.log(filtered_cis)
 
 
 //console.log(Document.all)
