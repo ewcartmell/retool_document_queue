@@ -338,6 +338,13 @@ window.build_or_assign = function build_or_assign(arr = []) {
   arr.forEach(function (item, index) {
     var doc_id = (item.DOCUMENT_ID ?? item.GSHEET_DOCUMENT_ID) ?? item.GRAPHQL_DOCUMENT_ID;
     var doc = Document.get_document(doc_id)
+    if(!(doc.ARRIVAL_DATE == null)) {
+      doc.ARRIVAL_DATE = new Date(doc.ARRIVAL_DATE);
+    }
+    if(!(doc.DUE_DATE == null)) {
+      doc.DUE_DATE = new Date(doc.DUE_DATE);
+    }
+
     if(doc == null) {
       new Document(item)
     } else {
