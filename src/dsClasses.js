@@ -75,7 +75,6 @@ window.Document = class Document {
   }
 
   static get_documents_status(date_part, cart_documents, assigned_documents, arr = Document.all) {
-    var arr = Document.all;
     var results = [];
 
     arr.reduce(function(res, value) {
