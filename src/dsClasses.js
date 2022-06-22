@@ -84,7 +84,7 @@ window.Document = class Document {
       if (!res[key]) {
         res[key] = {
           STATUS: status,
-          ARRIVAL_DATE: date_adjusted !== 'Invalid Date' ? date_adjusted.toISOString().split('T')[0] : null,
+          ARRIVAL_DATE: date_adjusted == 'Invalid Date' || date_adjusted == null ? null : date_adjusted.toISOString().split('T')[0],
           CIS: 0
         };
         results.push(res[key])
