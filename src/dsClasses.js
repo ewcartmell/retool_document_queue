@@ -74,11 +74,11 @@ window.Document = class Document {
     return arr
   }
 
-  static get_documents_status(date_part, cart_documents, assigned_documents) {
-    var docs = Document.all;
+  static get_documents_status(date_part, cart_documents, assigned_documents, arr = Document.all) {
+    var arr = Document.all;
     var results = [];
 
-    docs.reduce(function(res, value) {
+    arr.reduce(function(res, value) {
       var status = value.get_document_status(cart_documents, assigned_documents)
       var date_adjusted = value.get_arrival_date_part(date_part)
       var key = date_adjusted + '-' + value.STATUS;
@@ -156,6 +156,7 @@ window.Document = class Document {
   get_shipment() {
      return Shipment.all.filter(shipment => shipment.SHIPMENT_ID === this.SHIPMENT_ID)[0];
   }
+
   get_document_status(cart, assigned) {
     var status = 'Up for Grabs'
     if(!(this.GRAPHQL_KEYED_AT == null)) {
