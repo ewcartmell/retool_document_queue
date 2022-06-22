@@ -1,4 +1,3 @@
-import moment from 'moment';
 class Document {
   static all = []
 
@@ -74,11 +73,10 @@ class Document {
     return arr
   }
 
-  static get_documents_status(date_part, cart_documents, assigned_documents) {
-    var docs = Document.all;
+  static get_documents_status(date_part, cart_documents, assigned_documents, arr = Document.all) {
     var results = [];
 
-    docs.reduce(function(res, value) {
+    arr.reduce(function(res, value) {
       var status = value.get_document_status(cart_documents, assigned_documents)
       var date_adjusted = value.get_arrival_date_part(date_part)
       var key = date_adjusted + '-' + value.STATUS;
@@ -156,6 +154,7 @@ class Document {
   get_shipment() {
      return Shipment.all.filter(shipment => shipment.SHIPMENT_ID === this.SHIPMENT_ID)[0];
   }
+
   get_document_status(cart, assigned) {
     var status = 'Up for Grabs'
     if(!(this.GRAPHQL_KEYED_AT == null)) {
@@ -174,30 +173,31 @@ class Document {
 
   get_arrival_date_part(date_part) {
 
-    var year = this.ARRIVAL_DATE.getYear()
-    var month = this.ARRIVAL_DATE.getMonth()
-    var week_day = this.ARRIVAL_DATE.getDate() - this.ARRIVAL_DATE.getDay()
-    var day = this.ARRIVAL_DATE.getDate()
+    if(this.ARRIVAL_DATE instanceof Date) {
+      var year = this.ARRIVAL_DATE.getYear()
+      var month = this.ARRIVAL_DATE.getMonth()
+      var week_day = this.ARRIVAL_DATE.getDate() - this.ARRIVAL_DATE.getDay()
+      var day = this.ARRIVAL_DATE.getDate()
 
-    switch(date_part) {
-      case 'year':
-        return new Date(year, 1, 1);
-        break;
-      case 'month':
-        return new Date(year, month, 1);
-        break;
-      case 'week':
-        return new Date(year, month, week_day);
-        break;
-      default:
-        return new Date(year, month, day);
+      switch(date_part) {
+        case 'year':
+          return new Date(year, 1, 1);
+          break;
+        case 'month':
+          return new Date(year, month, 1);
+          break;
+        case 'week':
+          return new Date(year, month, week_day);
+          break;
+        default:
+          return new Date(year, month, day);
+
+    }
 
     }
   }
 
 }
-
-
 
 
 class Shipment {
@@ -250,8 +250,6 @@ class Shipment {
 
 
 
-
-
 class Coordinator {
   static all = []
 
@@ -278,7 +276,9 @@ class Coordinator {
     )
 
     coordinators.forEach(function (item, index) {
-      var assigned_cis = item.get_assigned_documents()
+      var documents = Document.all;
+      var assigned_cis = documents.filter(document => document.GSHEET_ASSIGNED_TO_EMAIL === item.EMAIL);
+
       assigned_cis.reduce(function(res, value) {
       var days_old = moment(value.GSHEET_ASSIGNED_TS).diff(moment(), 'days')*-1
         if (!res[days_old]) {
@@ -331,7 +331,6 @@ class Coordinator {
 }
 
 
-
 function build_or_assign(arr = []) {
   arr.forEach(function (item, index) {
     var doc_id = (item.DOCUMENT_ID ?? item.GSHEET_DOCUMENT_ID) ?? item.GRAPHQL_DOCUMENT_ID;
@@ -343,6 +342,7 @@ function build_or_assign(arr = []) {
     }
   })
 }
+
 
 
 
@@ -367,28 +367,6 @@ arr.forEach(function(item, index) {
   build_or_assign(item)
 })
 
-var clients = []
-var cart = null
-var cart_documents = []
-var team = []
-var bpo = null
-var assigned = null
-var transcribed = null
-var pending = null
-var arr = Document.all
-
-var filtered_cis = Document.get_filtered_cis(
-  clients = clients,
-  cart = cart,
-  cart_documents = cart_documents,
-  team = team,
-  bpo = bpo,
-  assigned = assigned,
-  transcribed = transcribed,
-  pending = pending,
-  arr =arr
-)
-
 
 
 
@@ -400,12 +378,20 @@ var filtered_cis = Document.get_filtered_cis(
     } else {
       Object.assign(coordinator, item)
     }
-  })
+})
+
+var docs = Document.all
+var assigned = true
+var date_part = 'week'
+var cart_documents = []
+
+var assigned_documents = Document.toggle_assigned(assigned = assigned, arr = docs)
 
 
-//var test = Coordinator.get_coordinators_assigned_documents('Flexport', Coordinator.all)
+var test = Document.get_documents_status(date_part = date_part, cart_documents = cart_documents, assigned_documents = assigned_documents, arr = docs)
 
-console.log(filtered_cis)
+
+console.log(test)
 
 
 //console.log(Document.all)
