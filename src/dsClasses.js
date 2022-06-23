@@ -338,10 +338,10 @@ window.build_or_assign = function build_or_assign(arr = []) {
     var doc_id = (item.DOCUMENT_ID ?? item.GSHEET_DOCUMENT_ID) ?? item.GRAPHQL_DOCUMENT_ID;
     var doc = Document.get_document(doc_id)
     if(!(doc == null) && doc.hasOwnProperty('ARRIVAL_DATE')) {
-      doc.ARRIVAL_DATE = new Date(doc.ARRIVAL_DATE);
+      item.ARRIVAL_DATE = new Date(item.ARRIVAL_DATE);
     }
     if(!(doc == null) && doc.hasOwnProperty('DUE_DATE')) {
-      doc.DUE_DATE = new Date(doc.DUE_DATE);
+      item.DUE_DATE = new Date(item.DUE_DATE);
     }
 
     if(doc == null) {
