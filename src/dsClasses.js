@@ -261,7 +261,7 @@ window.Coordinator = class Coordinator {
   }
 
 
-  static get_coordinators_assigned_documents(COMPANY, arr = Coordinator.all) {
+  static get_coordinators_assigned_documents(COMPANY, docs = Document.all, arr = Coordinator.all) {
 
     var coordinators = arr.filter(c =>
       c.TEAM == 'Product Data'
@@ -279,8 +279,7 @@ window.Coordinator = class Coordinator {
     )
 
     coordinators.forEach(function (item, index) {
-      var documents = Document.all;
-      var assigned_cis = documents.filter(document => document.GSHEET_ASSIGNED_TO_EMAIL === item.EMAIL);
+      var assigned_cis = docs.filter(document => document.GSHEET_ASSIGNED_TO_EMAIL === item.EMAIL);
 
       assigned_cis.reduce(function(res, value) {
       var days_old = moment(value.GSHEET_ASSIGNED_TS).diff(moment(), 'days')*-1
@@ -326,8 +325,8 @@ window.Coordinator = class Coordinator {
   }
 
   get_assigned_documents() {
-    var documents = Document.all;
-    return documents.filter(document => document.GSHEET_ASSIGNED_TO_EMAIL === this.EMAIL);
+    var docs = Document.all;
+    return docs.filter(document => document.GSHEET_ASSIGNED_TO_EMAIL === this.EMAIL);
   }
 
 
