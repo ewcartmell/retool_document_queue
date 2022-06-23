@@ -17,7 +17,7 @@ window.Document = class Document {
     return arr
   }
 
-  static toggle_team(team = null, arr = Document.all) {
+  static toggle_team(team = [], arr = Document.all) {
     if(!(team == null)) {
       team = (team.includes('Support Ninja') || team.includes('Lean Staffing Group'))
       arr = arr.filter(row => (row.SN == 'Support Ninja') == team);
