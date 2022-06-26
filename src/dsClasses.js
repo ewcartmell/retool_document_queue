@@ -80,7 +80,7 @@ window.Document = class Document {
     arr.reduce(function(res, value) {
       var status = value.get_document_status(cart_documents, assigned_documents)
       var date_adjusted = value.get_arrival_date_part(date_part)
-      var key = date_adjusted.toString() + '-' + value.STATUS;
+      var key = date_adjusted.toString() + '-' + status;
       if (!res[key]) {
         res[key] = {
           STATUS: status,
