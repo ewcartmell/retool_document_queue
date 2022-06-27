@@ -164,8 +164,10 @@ window.Document = class Document {
 
   get_document_status(cart, assigned) {
     var status = 'Up for Grabs'
-    if(!(this.GRAPHQL_KEYED_AT == null)) {
+    if ((this.ACTIONED_STATUS == 'Complete')) {
       status = 'Keyed'
+    } else if (this.ACTIONED_STATUS == 'Pending') {
+      status = 'Pending'
     } else if (cart.includes(this.DOCUMENT_ID)) {
       status = 'In Cart'
     } else if (assigned.includes(this.DOCUMENT_ID)) {
