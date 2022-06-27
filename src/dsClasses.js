@@ -126,8 +126,8 @@ window.Document = class Document {
     this.ACTION_TYPE = document.ACTION_TYPE;
     //this.PRODUCTS_FIRST_ENTERED_AT = document.PRODUCTS_FIRST_ENTERED_AT;
 
-    //From Google Sheet
-    this.GSHEET_DOCUMENT_ID = document.GSHEET_DOCUMENT_ID
+    //From Assignments Google Sheet
+    this.GSHEET_DOCUMENT_ID = document.GSHEET_DOCUMENT_ID;
     this.GSHEET_ASSIGNED_TS = document.GSHEET_ASSIGNED_TS;
     this.GSHEET_ASSIGNED_TO_ID = document.GSHEET_ASSIGNED_TO_ID;
     this.GSHEET_ASSIGNED_TO_FULL_NAME = document.GSHEET_ASSIGNED_TO_FULL_NAME;
@@ -140,6 +140,12 @@ window.Document = class Document {
     if(document.hasOwnProperty('GRAPHQL_KEYED_AT.productsFirstEnteredAt')) {
       this.GRAPHQL_KEYED_AT = document.GRAPHQL_KEYED_AT.productsFirstEnteredAt
     };
+
+    //From Actioned CIs Log Google Sheet
+    this.ACTIONED_DOCUMENT_ID = document.ACTIONED_DOCUMENT_ID;
+    this.ACTIONED_STATUS = document.ACTIONED_STATUS;
+    this.ACTIONED_TIMESTAMP = document.ACTIONED_TIMESTAMP;
+    this.ACTIONED_COORDINATOR = document.ACTIONED_COORDINATOR;
 
     //Create Shipment
 		var existing_shipments = Document.all.map(document => document.SHIPMENT_ID)
