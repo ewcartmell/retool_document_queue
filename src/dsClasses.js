@@ -121,6 +121,7 @@ window.Document = class Document {
     this.FIRST_UPLOADED_BY_EMAIL = document.FIRST_UPLOADED_BY_EMAIL;
     this.FILE_NAME = document.FILE_NAME;
     this.CLIENT = document.COMPANY_NAME;
+    this.CLIENT_ID = document.CLIENT_ID;
     this.ARRIVAL_DATE = new Date(document.ARRIVAL_DATE);
     this.DUE_DATE = new Date(document.DUE_DATE);
     this.ACTION_TYPE = document.ACTION_TYPE;
