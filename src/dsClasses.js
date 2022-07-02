@@ -341,6 +341,30 @@ window.Coordinator = class Coordinator {
 }
 
 
+window.Client = class Client {
+  static all = []
+
+  static get_tier_clients(tiers = [1,2,3]) {
+    var clients = Client.all;
+    return clients.filter(c => tiers.includes(c.TIER));
+  }
+
+  constructor(client) {
+    this.COMPANY_NAME = client.COMPANY_NAME;
+    this.CLIENT_ID = client.CLIENT_ID;
+    this.TIER = client.TIER;
+    this.SOP_LINK = client.SOP_LINK;
+    this.BPO = client.BPO;
+    this.PDR = client.PDR;
+    this.RF = client.RF;
+    this.TIME = client.TIME;
+    this.SPECIAL_DUE_DATE = client.SPECIAL_DUE_DATE;
+    this.APPROVED_COORDINATOR_IDS = client.APPROVED_COORDINATOR_IDS;
+    Client.all.push(this);
+  }
+
+}
+
 window.build_or_assign = function build_or_assign(arr = []) {
   arr.forEach(function (item, index) {
     var doc_id = (parseInt(item.DOCUMENT_ID ?? item.GSHEET_DOCUMENT_ID) ?? item.GRAPHQL_DOCUMENT_ID) ?? parseInt(item.ACTIONED_DOCUMENT_ID);
