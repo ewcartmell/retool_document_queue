@@ -345,6 +345,13 @@ window.Client = class Client {
     return clients.filter(c => tiers.includes(c.TIER));
   }
 
+  static toggle_bpo(bpo = null, arr = Client.all) {
+    if(!(bpo == null)) {
+      arr = arr.filter(row => (row.SN == 'Support Ninja') == bpo);
+    }
+    return arr
+  }
+
   constructor(client) {
     this.CLIENT = client.CLIENT;
     this.CLIENT_ID = client.CLIENT_ID;
@@ -357,6 +364,15 @@ window.Client = class Client {
     this.SPECIAL_DUE_DATE = client.SPECIAL_DUE_DATE;
     this.APPROVED_COORDINATOR_IDS = client.APPROVED_COORDINATOR_IDS;
     Client.all.push(this);
+  }
+
+  get_client_cis(arr = Document.all) {
+    return arr.filter(row => this.CLIENT_ID === row.CLIENT_ID);
+  }
+
+  get_approved_coordinators() {
+    var coordinators = Coordinator.all
+    return coordinators.filter(row => this.APPROVED_COORDINATOR_IDS.includes(row.USER_ID));
   }
 
 }
