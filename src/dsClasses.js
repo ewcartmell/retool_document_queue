@@ -200,12 +200,9 @@ window.Document = class Document {
           break;
         default:
           return new Date(year, month, day);
-
-    }
-
+      }
     }
   }
-
 }
 
 
@@ -336,8 +333,6 @@ window.Coordinator = class Coordinator {
     var docs = Document.all;
     return docs.filter(document => document.GSHEET_ASSIGNED_TO_EMAIL === this.EMAIL);
   }
-
-
 }
 
 
