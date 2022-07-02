@@ -346,11 +346,11 @@ window.Client = class Client {
   }
 
   constructor(client) {
-    this.COMPANY_NAME = client.CLIENT;
+    this.CLIENT = client.CLIENT;
     this.CLIENT_ID = client.CLIENT_ID;
     this.TIER = client.TIER;
-    this.SOP_LINK = client.SOP;
-    this.BPO = client.SN;
+    this.SOP = client.SOP;
+    this.SN = client.SN;
     this.PDR = client.PDR;
     this.RF = client.RF;
     this.TIME = client.TIME;
