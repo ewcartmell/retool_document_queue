@@ -270,9 +270,9 @@ window.Coordinator = class Coordinator {
   static get_coordinators_assigned_documents(COMPANY, docs = Document.all, arr = Coordinator.all) {
 
     var coordinators = arr.filter(c =>
-      c.TEAM == 'Product Data'
+      c.TEAM == "Product Data"
       && COMPANY.includes(c.COMPANY)
-      && c.ROLE === 'Execution'
+      && c.ROLE == "Execution"
     )
 
     var results = coordinators.map(c => ({
